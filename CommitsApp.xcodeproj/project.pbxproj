@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,17 +13,33 @@
 		304BF895257513E500F4C5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304BF893257513E500F4C5B4 /* Main.storyboard */; };
 		304BF897257513E900F4C5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304BF896257513E900F4C5B4 /* Assets.xcassets */; };
 		304BF89A257513E900F4C5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304BF898257513E900F4C5B4 /* LaunchScreen.storyboard */; };
+		304BF8A3257518F000F4C5B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BF8A2257518F000F4C5B4 /* DetailViewController.swift */; };
+		304BF8AB25751A4400F4C5B4 /* CommitsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 304BF8A925751A4400F4C5B4 /* CommitsApp.xcdatamodeld */; };
+		30B783462576943C00429191 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B783422576943C00429191 /* Author+CoreDataProperties.swift */; };
+		30B783472576943C00429191 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B783432576943C00429191 /* Author+CoreDataClass.swift */; };
+		30B783482576943C00429191 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B783442576943C00429191 /* Commit+CoreDataProperties.swift */; };
+		30B783492576943C00429191 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B783452576943C00429191 /* Commit+CoreDataClass.swift */; };
+		B50E085D23F501B1956373D6 /* Pods_CommitsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B41D10BFE81FBC7FF5C5B3A /* Pods_CommitsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B41D10BFE81FBC7FF5C5B3A /* Pods_CommitsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommitsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		304BF88A257513E500F4C5B4 /* CommitsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommitsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304BF88D257513E500F4C5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304BF88F257513E500F4C5B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		304BF891257513E500F4C5B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		304BF891257513E500F4C5B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CommitsApp/Controllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		304BF894257513E500F4C5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304BF896257513E900F4C5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304BF899257513E900F4C5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		304BF89B257513E900F4C5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304BF8A2257518F000F4C5B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		304BF8AA25751A4400F4C5B4 /* CommitsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommitsApp.xcdatamodel; sourceTree = "<group>"; };
+		30B783422576943C00429191 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		30B783432576943C00429191 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		30B783442576943C00429191 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		30B783452576943C00429191 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FB99242AEDEE9F42347F0EB /* Pods-CommitsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommitsApp.release.xcconfig"; path = "Target Support Files/Pods-CommitsApp/Pods-CommitsApp.release.xcconfig"; sourceTree = "<group>"; };
+		7EC5E173D248A28C8F3A2549 /* Pods-CommitsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommitsApp.debug.xcconfig"; path = "Target Support Files/Pods-CommitsApp/Pods-CommitsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50E085D23F501B1956373D6 /* Pods_CommitsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				304BF88C257513E500F4C5B4 /* CommitsApp */,
 				304BF88B257513E500F4C5B4 /* Products */,
+				86F0345A0A6A311743D282D8 /* Pods */,
+				D911FA3E6B108098C202C416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,54 @@
 		304BF88C257513E500F4C5B4 /* CommitsApp */ = {
 			isa = PBXGroup;
 			children = (
+				30B78341257693F200429191 /* CoreData */,
+				304BF8A5257518F500F4C5B4 /* Controllers */,
 				304BF88D257513E500F4C5B4 /* AppDelegate.swift */,
 				304BF88F257513E500F4C5B4 /* SceneDelegate.swift */,
-				304BF891257513E500F4C5B4 /* ViewController.swift */,
 				304BF893257513E500F4C5B4 /* Main.storyboard */,
 				304BF896257513E900F4C5B4 /* Assets.xcassets */,
 				304BF898257513E900F4C5B4 /* LaunchScreen.storyboard */,
 				304BF89B257513E900F4C5B4 /* Info.plist */,
+				304BF8A925751A4400F4C5B4 /* CommitsApp.xcdatamodeld */,
 			);
 			path = CommitsApp;
+			sourceTree = "<group>";
+		};
+		304BF8A5257518F500F4C5B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				304BF891257513E500F4C5B4 /* ViewController.swift */,
+				304BF8A2257518F000F4C5B4 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30B78341257693F200429191 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				30B783432576943C00429191 /* Author+CoreDataClass.swift */,
+				30B783422576943C00429191 /* Author+CoreDataProperties.swift */,
+				30B783452576943C00429191 /* Commit+CoreDataClass.swift */,
+				30B783442576943C00429191 /* Commit+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		86F0345A0A6A311743D282D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EC5E173D248A28C8F3A2549 /* Pods-CommitsApp.debug.xcconfig */,
+				5FB99242AEDEE9F42347F0EB /* Pods-CommitsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D911FA3E6B108098C202C416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B41D10BFE81FBC7FF5C5B3A /* Pods_CommitsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304BF89E257513E900F4C5B4 /* Build configuration list for PBXNativeTarget "CommitsApp" */;
 			buildPhases = (
+				B91943E030D68184C13CE321 /* [CP] Check Pods Manifest.lock */,
 				304BF886257513E500F4C5B4 /* Sources */,
 				304BF887257513E500F4C5B4 /* Frameworks */,
 				304BF888257513E500F4C5B4 /* Resources */,
+				1B07EA19EF2BEE9E4C8EC136 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +192,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B07EA19EF2BEE9E4C8EC136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommitsApp/Pods-CommitsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommitsApp/Pods-CommitsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommitsApp/Pods-CommitsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91943E030D68184C13CE321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommitsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		304BF886257513E500F4C5B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +242,12 @@
 				304BF892257513E500F4C5B4 /* ViewController.swift in Sources */,
 				304BF88E257513E500F4C5B4 /* AppDelegate.swift in Sources */,
 				304BF890257513E500F4C5B4 /* SceneDelegate.swift in Sources */,
+				30B783472576943C00429191 /* Author+CoreDataClass.swift in Sources */,
+				304BF8A3257518F000F4C5B4 /* DetailViewController.swift in Sources */,
+				30B783462576943C00429191 /* Author+CoreDataProperties.swift in Sources */,
+				30B783482576943C00429191 /* Commit+CoreDataProperties.swift in Sources */,
+				30B783492576943C00429191 /* Commit+CoreDataClass.swift in Sources */,
+				304BF8AB25751A4400F4C5B4 /* CommitsApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		304BF89F257513E900F4C5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC5E173D248A28C8F3A2549 /* Pods-CommitsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +411,7 @@
 		};
 		304BF8A0257513E900F4C5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB99242AEDEE9F42347F0EB /* Pods-CommitsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +451,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		304BF8A925751A4400F4C5B4 /* CommitsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				304BF8AA25751A4400F4C5B4 /* CommitsApp.xcdatamodel */,
+			);
+			currentVersion = 304BF8AA25751A4400F4C5B4 /* CommitsApp.xcdatamodel */;
+			path = CommitsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 304BF882257513E500F4C5B4 /* Project object */;
 }
